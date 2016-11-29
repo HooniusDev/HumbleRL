@@ -71,6 +71,7 @@
     <Compile Include="ConsoleClasses\DungeonScreen.cs" />
     <Compile Include="ConsoleClasses\MessagesConsole.cs" />
     <Compile Include="MapBuilder\csMapBuilder.cs" />
+    <Compile Include="MapBuilder\HumbleMap.cs" />
     <Compile Include="MapObjects\Corridor.cs" />
     <Compile Include="MapObjects\Door.cs" />
     <Compile Include="MapObjects\GuiHighLight.cs" />

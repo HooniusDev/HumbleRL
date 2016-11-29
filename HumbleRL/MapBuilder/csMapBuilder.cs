@@ -145,6 +145,16 @@ namespace HumbleRL.MapBuilder
 					map[x, y] = empty;
 		}
 
+		public List<Microsoft.Xna.Framework.Rectangle> GetRooms()
+		{
+			List<Microsoft.Xna.Framework.Rectangle> rooms = new List<Microsoft.Xna.Framework.Rectangle>();
+			foreach ( Rectangle rect in rctBuiltRooms )
+			{
+				rooms.Add( new Microsoft.Xna.Framework.Rectangle( rect.X, rect.Y, rect.Width, rect.Height ));
+			}
+			return rooms;
+		}
+
 		#region build methods()
 
 		/// <summary>
