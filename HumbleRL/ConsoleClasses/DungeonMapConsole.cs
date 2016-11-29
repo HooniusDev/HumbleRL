@@ -14,6 +14,8 @@ namespace HumbleRL.Consoles
 {
 	class DungeonMapConsole : Console
 	{
+		
+		//Refactor map things to of class!!!
 
 		RogueSharp.Random.IRandom random = new RogueSharp.Random.DotNetRandom();
 
